@@ -1,0 +1,106 @@
+<!-- <aside style="background-color: red;width: 300px;height: 100vh;">
+  aside works!
+</aside> -->
+<!-- <aside class="boxShadow-10 me-2 mt-3 overflow-auto {{true ? 'openAside':'closeAside'}}" id="aside" [style]="'transition-duration: 0.2s ;height: calc( 100vh );' ">
+  <div class="flex-shrink-0 p-3 bg-white" style="min-height: 100%;"  >
+    <ul class="list-unstyled ps-0">
+      <li class="mb-1 bg-info bg-opacity-10 p-1 rounded">
+        <button class="btn btn-toggle d-inline-flex align-items-center bg-info rounded mb-1 text-white rounded-0 border-0 collapsed"
+          data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="true">
+          Home
+        </button>
+        <div class="collapse show ps-3" id="home-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small rounded bg-info bg-opacity-25">
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Overview</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Updates</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Reports</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1 bg-info bg-opacity-10 p-1 rounded">
+        <button class="btn btn-toggle d-inline-flex align-items-center bg-info mb-1 text-white rounded border-0 collapsed"
+          data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
+          Dashboard
+        </button>
+        <div class="collapse ps-3" id="dashboard-collapse">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small rounded bg-info bg-opacity-25">
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Overview</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Weekly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Monthly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Annually</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1 bg-info bg-opacity-10 p-1 rounded">
+        <button class="btn btn-toggle d-inline-flex align-items-center bg-info mb-1 text-white rounded border-0 collapsed"
+          data-bs-toggle="collapse" data-bs-target="#dashboard-collapse1" aria-expanded="false">
+          Dashboard
+        </button>
+        <div class="collapse ps-3" id="dashboard-collapse1">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small rounded bg-info bg-opacity-25">
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Overview</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Weekly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Monthly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Annually</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1 bg-info bg-opacity-10 p-1 rounded">
+        <button class="btn btn-toggle d-inline-flex align-items-center bg-info mb-1 text-white rounded border-0 collapsed"
+          data-bs-toggle="collapse" data-bs-target="#dashboard-collapse2" aria-expanded="false">
+          Dashboard
+        </button>
+        <div class="collapse ps-3" id="dashboard-collapse2">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small rounded bg-info bg-opacity-25">
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Overview</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Weekly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Monthly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Annually</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1 bg-info bg-opacity-10 p-1 rounded">
+        <button class="btn btn-toggle d-inline-flex align-items-center bg-info mb-1 text-white rounded border-0 collapsed"
+          data-bs-toggle="collapse" data-bs-target="#dashboard-collapse3" aria-expanded="false">
+          Dashboard
+        </button>
+        <div class="collapse ps-3" id="dashboard-collapse3">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small rounded bg-info bg-opacity-25">
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Overview</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Weekly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Monthly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Annually</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1 bg-info bg-opacity-10 p-1 rounded">
+        <button class="btn btn-toggle d-inline-flex align-items-center bg-info mb-1 text-white rounded border-0 collapsed"
+          data-bs-toggle="collapse" data-bs-target="#dashboard-collapse4" aria-expanded="false">
+          Dashboard
+        </button>
+        <div class="collapse ps-3" id="dashboard-collapse4">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small rounded bg-info bg-opacity-25">
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Overview</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Weekly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Monthly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Annually</a></li>
+          </ul>
+        </div>
+      </li>
+      <li class="mb-1 bg-info bg-opacity-10 p-1 rounded">
+        <button class="btn btn-toggle d-inline-flex align-items-center bg-info mb-1 text-white rounded border-0 collapsed"
+          data-bs-toggle="collapse" data-bs-target="#dashboard-collapse5" aria-expanded="false">
+          Dashboard
+        </button>
+        <div class="collapse ps-3" id="dashboard-collapse5">
+          <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small rounded bg-info bg-opacity-25">
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Overview</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Weekly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Monthly</a></li>
+            <li><a href="#" class="link-dark d-inline-flex text-decoration-none rounded-0 w-100 px-3">Annually</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div>
+</aside> -->
